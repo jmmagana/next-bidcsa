@@ -1,4 +1,4 @@
-export default function ProyectosPage() {
+export default function IngenieriaCostosPage() {
   return (
     <>
       <h1>Ingeniería de Costos y Presupuestos</h1>

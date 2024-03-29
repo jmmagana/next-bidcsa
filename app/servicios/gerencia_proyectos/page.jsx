@@ -1,4 +1,4 @@
-export default function ProyectosPage() {
+export default function GerenciaProyectosPage() {
   return (
     <>
       <h1>Gerencia de Proyectos de Construcción</h1>
