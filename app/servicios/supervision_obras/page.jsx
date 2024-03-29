@@ -1,4 +1,4 @@
-export default function SupervisionObrasPage() {
+export default function ElaboracionEstudiosPage() {
   return (
     <>
       <h1>Supervisión y Auditoría Técnica de Obras</h1>
@@ -6,7 +6,7 @@ export default function SupervisionObrasPage() {
         Ofrecemos a instituciones públicas y privadas nuestros servicios de:
         Supervisión y auditoría técnica y financiera. Evaluación del
         cumplimiento de la normatividad ambiental, legal y de seguridad.
-        Análisis de desviaciones de ruta crítica y plan de programación.
+        Análisis de desviaciones de ruta crítica y plan de programación
       </p>
     </>
   );
