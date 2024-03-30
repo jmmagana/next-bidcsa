@@ -1,5 +1,6 @@
 import { Children } from "react";
 import Link from "next/link";
+import "./global.css";
 
 export default function RootLayout({ children }) {
   return (
