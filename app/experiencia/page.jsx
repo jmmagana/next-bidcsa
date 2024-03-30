@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ExperienciaPage() {
   return (
     <>
@@ -11,6 +13,21 @@ export default function ExperienciaPage() {
         Estaremos encantados de dar respuesta a sus preguntas en cualquiera de
         nuestras formas de contacto.
       </p>
+      <ul>
+        <li>
+          <Link href="/experiencia/avaluos_presupuestos_concursos">
+            Avalúos, Presupuestos y Concursos de Obra
+          </Link>
+        </li>
+        <li>
+          <Link href="/experiencia/estudios">Elaboración de Estudios</Link>
+        </li>
+        <li>
+          <Link href="/experiencia/proyectos_construccion">
+            Proyectos de Construcción
+          </Link>
+        </li>
+      </ul>
     </>
   );
 }
