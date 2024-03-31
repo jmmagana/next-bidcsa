@@ -5,10 +5,10 @@ import "./global.css";
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body>
+      <body className="flex flex-col px-4 py-4 min-h-screen">
         <header>
           <nav>
-            <ul>
+            <ul className="flex py-4 gap-8 border-b">
               <li>
                 <Link href="/">Home</Link>
               </li>
@@ -23,8 +23,8 @@ export default function RootLayout({ children }) {
             </ul>
           </nav>
         </header>
-        <main>{children}</main>
-        <footer>
+        <main className="px-4 py-4">{children}</main>
+        <footer className="py-2 border-t text-xs">
           ©2024 Bufete de Ingeniería para el Desarrollo de la Construcción S.A.
           de C.V. Todos los derechos reservados.
         </footer>

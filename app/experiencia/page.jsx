@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function ExperienciaPage() {
   return (
     <>
-      <h1>Experiencia</h1>
+      <h1 class="py-4 font-serif text-2xl">Experiencia</h1>
       <p>
         Contamos con más de 20 años de experiencia atendiendo las necesidades de
         nuestros clientes en la industria de la construcción y el sector
@@ -13,7 +13,7 @@ export default function ExperienciaPage() {
         Estaremos encantados de dar respuesta a sus preguntas en cualquiera de
         nuestras formas de contacto.
       </p>
-      <ul>
+      <ul class="py-4 list-outside list-style-type: none">
         <li>
           <Link href="/experiencia/avaluos_presupuestos_concursos">
             Avalúos, Presupuestos y Concursos de Obra

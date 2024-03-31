@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function ServiciosPage() {
   return (
     <>
-      <h1>Nuestros Servicios</h1>
-      <ul>
+      <h1 class="py-4 font-serif text-2xl">Nuestros Servicios</h1>
+      <ul class="list-outside list-style-type: none;">
         <li>
           <Link href="/servicios/gerencia_proyectos">
             Gerencia de Proyectos de Construcción
